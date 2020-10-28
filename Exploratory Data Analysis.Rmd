@@ -1,0 +1,132 @@
+---
+title: "Exploratory Data Analysis"
+author: "Sana Rasheed"
+date: "October 20, 2020"
+output: html_document
+---
+
+##### NOTE: 
+1. Change author name and date to your exercise submission date in above section
+2. Your code MUST execute without errors. 
+3. You can add more lines in your code as required.
+
+## Section 1: Summary Statistics
+
+### Question 1 
+**The dataset is loaded for you. Perform the following tasks:**
+
+1. Using the airquality dataset, generate the five-point summary through the appropriate function.
+2. Visualize the data for temperature through histogram. Add color and labels.
+3. Visualize the distribution of data for Wind. Add colors and labels.
+4. Visualize the relationship between Solar.R and Ozone. Use scatterplot and circular red markers to identify the points.
+
+
+```{r }
+library(datasets)
+head(airquality)
+```
+
+```{r }
+# START YOUR CODE FROM HERE
+```
+
+
+```{r }
+
+```
+
+### Good Job! You have completed this section!
+
+
+
+## Section 2: Plotting Systems in R: Base, lattice, ggplot2
+
+### Question 1
+**The dataset is loaded for you. Perform the following tasks:**
+
+1. Using the state.x77 and state.region datasets, visualize the relationship between Income and illiteracy.
+2. Visualize the relationship between Population, region and life expectancy (Life.Exp)
+3. Export the charts to a pdf file.
+
+You can use either lattice or ggplot2 libraries to accomplish this task.
+
+
+```{r }
+library(lattice)
+library(ggplot2)
+
+head(state.x77)
+#head(state.region)
+```
+
+```{r }
+# START YOUR CODE FROM HERE
+```
+
+
+```{r }
+
+```
+
+
+### Question 2
+**The dataset is loaded for you. Perform the following tasks:**
+
+1. Using the visualize the relationship between height and weight from the women dataset.
+2. Is there a strong correlation between the two quantities? Compute correlation coefficient and fit a linear regression model
+3. Export the charts and results to a pdf file.
+
+
+```{r }
+head(women)
+```
+
+```{r }
+# START YOUR CODE FROM HERE
+```
+
+```{r }
+
+```
+
+### Good Job! You have completed this section!
+
+
+
+## Section 3: Aesthetics and Visuals of ggplot2
+
+### Question 1
+**The dataset is loaded for you. Perform the following tasks:**
+
+1. Using the longley dataset, plot the relationship between Umployed and GNP.
+
+2. As a scatter plot, plot out Unemployed values as blue dots and Employed values as green dots. 
+
+3. Create a new variable as a column known as Armed.Forces.Unemployed.Rel. In it, place a Y for when the number of armed forces are greater than unemployed and N otherwise. Plot a graph to show the relationship between unemployed and armed forces and use the Armed.Forces.Unemployed.Rel for aesthetics and color.
+
+Add appropriate title, axis labels and charts for EACH of the above charts. 
+You need to use ggplot2 to accomplish this task.
+
+
+```{r }
+head(longley)
+
+```
+
+```{r }
+# START YOUR CODE FOR GRAPH-1
+
+```
+
+```{r }
+# START YOUR CODE fFOR GRAPH-2
+
+```
+
+```{r }
+# START YOUR CODE FOR GRAPH-3
+
+```
+
+
+### Congratulations! You have successfully completed this course and practice exercises!
